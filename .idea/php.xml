@@ -12,7 +12,7 @@
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="/usr/local/Cellar/php/8.2.9" />
+      <path value="/usr/local/Cellar/php" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
