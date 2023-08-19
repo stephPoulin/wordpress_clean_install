@@ -4,46 +4,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2021-01-09 11:33+0000\n"
+"POT-Creation-Date: 2021-03-26 10:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-05-30 10:00+0000\n"
-"Last-Translator: \n"
-"Language-Team: Español\n"
+"PO-Revision-Date: 2021-05-30 09:12+0000\n"
+"Last-Translator: Peach\n"
+"Language-Team: Swedish\n"
 "X-Generator: Loco https://localise.biz/\n"
-"Language: es_ES\n"
+"Language: sv_SE\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Loco-Version: 2.5.2; wp-5.7.2"
 
 #: single-sidebar-left.php:31 single-sidebar-none.php:28
 #: single-full-width-image.php:34 single.php:29
 msgid " by "
-msgstr " por "
+msgstr "av"
 
 #: inc/comment-list.php:46
 #, php-format
 msgid "%s <span class=\"says d-none\">says:</span>"
-msgstr "%s <span class=\"says d-none\">dice:</span>"
+msgstr "%s <span class=\"says d-none\">säger:</span>"
 
 #. used between list items, there is a space after the comma
 #: inc/template-tags.php:38
 msgid ", "
-msgstr ", "
+msgstr ","
 
 #: languages/plugin-translations.php:5
 msgid "/privacy-policy"
-msgstr "/politica-privacidad"
+msgstr "/integritetspolicy"
 
 #: inc/comment-list.php:51
 #, php-format
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
-msgstr "%1$s a las %2$s"
+msgstr "%1$s kl %2$s"
 
 #: functions.php:214
 msgid "404 Page"
-msgstr "Página 404"
+msgstr "404 Sida"
 
 #. Description of the theme
 msgid ""
@@ -56,35 +56,32 @@ msgid ""
 "can only be made by touching the code. Some CSS, HTML, PHP and JS Skills are "
 "required to customize it."
 msgstr ""
-"Un poderoso tema de inicio basado en Bootstrap para una página o multipágina "
-"con soporte para WooCommerce. Ejemplos: https://bootscore.me/#examples, "
-"Documentación: https://bootscore.me/category/documentation/. Este tema te da "
-"el control total de todo lo que haces y la libertad total para diseñar lo "
-"que quieras. Viene con algunos scripts de encabezado útiles y una amplia "
-"selección de plantillas de categoría, página, publicación, autor y archivo, "
-"así como barra lateral, encabezado, widgets de pie de página y 404. Se "
-"incluye un precargador. Hay tan solo unas pocas configuraciones de "
-"personalización en el backend. Todos los ajustes importantes sólo se pueden "
-"realizar tocando el código. Se requieren algunas habilidades de CSS, HTML, "
-"PHP y JS para personalizarlo por completo. ¡Haz que bootScore sea tuyo!"
+"Ett kraftfullt Bootstrap 5 WordPress-starttema med stöd för WooCommerce. <a "
+"href=\"https://bootscore.me/category/documentation/\">Dokumentation</a>. "
+"Detta tema ger dig full kontroll och frihet att göra och designa vad du vill."
+" Den levereras med ett brett urval av mallar för kategorier, sidor, inlägg, "
+"forfattare och arkiv samt widgets för sidofält, sidhuvud, sidfot och 404. "
+"Det finns inga anpassningsinställningar i backend. Alla inställningar kan "
+"endast göras genom att modifiera koden. Viss kunskap om CSS, HTML, PHP och "
+"JS krävs för att anpassa temat."
 
 #: languages/plugin-translations.php:7
 msgid "Accept"
-msgstr "Aceptar"
+msgstr "Godkänn"
 
 #: functions.php:120 functions.php:132 functions.php:144 functions.php:156
 #: functions.php:168 functions.php:180 functions.php:192 functions.php:204
 #: functions.php:216
 msgid "Add widgets here."
-msgstr "Agrega widgets aquí."
+msgstr "Lägg till widgets här."
 
 #: languages/plugin-translations.php:2
 msgid "All"
-msgstr "Todo"
+msgstr "Alla"
 
 #: 404.php:27
 msgid "Back Home &raquo;"
-msgstr "Volver al Inicio &raquo;"
+msgstr "Tillbaka hem &raquo;"
 
 #. Author of the theme
 msgid "Bastian Kreiter"
@@ -92,39 +89,39 @@ msgstr "Bastian Kreiter"
 
 #. Name of the template
 msgid "Blank with container"
-msgstr "En blanco con contenedor"
+msgstr "Tom med container"
 
 #. Name of the template
 msgid "Blank without container"
-msgstr "En blanco sin contenedor"
+msgstr "Tom utan container"
 
 #. Name of the theme
-msgid "bootScore 5"
-msgstr "bootScore 5"
+msgid "Boostrap 5 Theme"
+msgstr "Boostrap 5 Theme"
 
 #: comments.php:100
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Avbryt"
 
 #: header-woocommerce.php:166
 msgid "Cart"
-msgstr "Carrito"
+msgstr "Kundvagn"
 
 #: header-woocommerce.php:145
 msgid "Close account"
-msgstr "Cerrar cuenta"
+msgstr "Stäng"
 
 #: header-woocommerce.php:82 header.php:81
 msgid "Close menu"
-msgstr "Cerrar menú"
+msgstr "Stäng meny"
 
 #: comments.php:55 comments.php:73
 msgid "Comment navigation"
-msgstr "Comentario de navegación"
+msgstr "Kommentarsnavigering"
 
 #: comments.php:91
 msgid "Comments are closed."
-msgstr "Los comentarios están cerrados."
+msgstr "Kommentarer är stängda."
 
 #. 1: number of comments, 2: post title
 #: comments.php:38
@@ -132,80 +129,80 @@ msgstr "Los comentarios están cerrados."
 msgctxt "comments title"
 msgid "%1$s Comment on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s Comments on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s Comentar en &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s Comentarios en &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s kommentar till &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s kommentarer till &ldquo;%2$s&rdquo;"
 
 #. %s: post title
 #: comments.php:34
 #, php-format
 msgctxt "comments title"
 msgid "One Comment &ldquo;%s&rdquo;"
-msgstr "Un Comentario &ldquo;%s&rdquo;"
+msgstr "En kommentar &ldquo;%s&rdquo;"
 
 #: header-woocommerce.php:157
 msgid "Continue shopping"
-msgstr "Seguir comprando"
+msgstr "Fortsätt handla"
 
 #: languages/plugin-translations.php:4
 msgid ""
 "Cookies help us deliver our services. By using our services, you agree to "
 "our use of cookies."
 msgstr ""
-"Las cookies nos ayudan a ofrecer nuestros servicios. Al utilizar nuestros "
-"servicios, está aceptando nuestro uso de cookies."
+"Kakor hjälper oss att leverera våra tjänster. Genom att använda våra "
+"tjänster godkänner du vår användning av cookies."
 
 #: woocommerce/checkout/form-shipping.php:35
 msgid "Delivery details"
-msgstr "Detalles de la entrega"
+msgstr "Leveransdetaljer"
 
 #. %s: Name of current post. Only visible to screen readers
 #: inc/comment-list.php:29 inc/comment-list.php:53 inc/template-tags.php:139
 msgid "Edit"
-msgstr "Editar"
+msgstr "Redigera"
 
 #: comments.php:125 woocommerce/single-product-reviews.php:95
 msgid "Email* (will not be published)"
-msgstr "Correo electrónico * (no se publicará)"
+msgstr "E-post* (kommer inte att publiceras)"
 
 #: functions.php:166
 msgid "Footer 1"
-msgstr "Pie de página 1"
+msgstr "Sidfot 1"
 
 #: functions.php:178
 msgid "Footer 2"
-msgstr "Pie de página 2"
+msgstr "Sidfot 2"
 
 #: functions.php:190
 msgid "Footer 3"
-msgstr "Pie de página 3"
+msgstr "Sidfot 3"
 
 #: functions.php:202
 msgid "Footer 4"
-msgstr "Pie de página 4"
+msgstr "Sidfot 4"
 
 #: functions.php:66
 msgid "Footer Menu"
-msgstr "Menú de pie de página"
+msgstr "Sidfotsmeny"
 
 #. Name of the template
 msgid "Full Width Image"
-msgstr "Imagen de Ancho Completo"
+msgstr "Bild i Fullbredd"
 
 #. Name of the template
 msgid "Full width image"
-msgstr "Imagen de ancho completo"
+msgstr "Bild i fullbredd"
 
 #: woocommerce/myaccount/my-account-offcanvas.php:17
 msgid "Hello"
-msgstr "Hola"
+msgstr "Hej"
 
 #: woocommerce/myaccount/my-account-offcanvas.php:22
 msgid ""
 "Here you can view your recent orders, manage your shipping and billing "
 "addresses, and edit your password and account details."
 msgstr ""
-"Aquí puedes ver tus pedidos recientes, administrar tus direcciones de envío "
-"y facturación, y editar tu contraseña y los detalles de tu cuenta."
+"Här kan du se dina senaste beställningar, hantera dina leverans- och "
+"faktureringsadresser samt redigera ditt lösenord och kontouppgifter."
 
 #. URI of the theme
 msgid "https://bootscore.me/"
@@ -217,82 +214,82 @@ msgstr "https://crftwrk.de"
 
 #: inc/template-tags.php:256
 msgid "Internet Explorer detected"
-msgstr "Internet Explorer detectado"
+msgstr "Internet Explorer upptäckt"
 
 #: template-parts/content-none.php:43
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"Parece que no podemos encontrar lo que estás buscando. Quizás la búsqueda "
-"pueda ayudar."
+"Det verkar som om vi inte kan hitta det du letar efter. Kanske kan det "
+"hjälpa att söka."
 
 #. %s: post title
 #: comments.php:98 inc/template-tags.php:110
 msgid "Leave a Comment"
-msgstr "Deja un Comentario"
+msgstr "Lämna en kommentar"
 
 #: inc/template-tags.php:167
 msgid "Leave a comment"
-msgstr "Deja un comentario"
+msgstr "Lämna en kommentar"
 
 #: comments.php:99
 #, php-format
 msgid "Leave a Comment to %s"
-msgstr "Deja un Comentario a %s"
+msgstr "Lämna en kommentar till %s"
 
 #. Name of the template
 msgid "Left Sidebar"
-msgstr "Barra lateral Izquierda"
+msgstr "Vänster sidofält"
 
 #: languages/plugin-translations.php:3
 msgid "Look what I found: "
-msgstr "Mire lo que he encontrado: "
+msgstr "Titta vad jag hittade:"
 
 #: functions.php:65
 msgid "Main Menu"
-msgstr "Menú Principal"
+msgstr "Huvudmeny"
 
 #: languages/plugin-translations.php:6
 msgid "More Information"
-msgstr "Más Información"
+msgstr "Mer information"
 
 #: comments.php:121 woocommerce/single-product-reviews.php:89
 msgid "Name*"
-msgstr "Nombre*"
+msgstr "Namn*"
 
 #: comments.php:59 comments.php:77
 msgid "Newer Comments"
-msgstr "Comentarios más Nuevos"
+msgstr "Nyare kommentarer"
 
 #. Name of the template
 msgid "No Sidebar"
-msgstr "Sin Barra lateral"
+msgstr "Inget sidofält"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found for"
-msgstr "Nada Encontrado para"
+msgstr "Inget hittat för"
 
 #: comments.php:58 comments.php:76
 msgid "Older Comments"
-msgstr "Comentarios más Antiguos"
+msgstr "Äldre kommentarer"
 
 #: inc/template-tags.php:258
 msgid "or"
-msgstr "o"
+msgstr "eller"
 
 #: 404.php:22
 msgid "Page not found."
-msgstr "Página no encontrada."
+msgstr "Sidan hittas inte."
 
 #: page-blank-with-container.php:21 page-sidebar-none.php:33
 #: page-blank-without-container.php:21 page-sidebar-left.php:38 page.php:43
 msgid "Pages:"
-msgstr "Páginas:"
+msgstr "Sidor:"
 
 #: functions.php:411
 msgid "Password"
-msgstr "Contraseña"
+msgstr "Lösenord"
 
 #: inc/comment-list.php:29
 msgid "Pingback:"
@@ -300,21 +297,21 @@ msgstr "Pingback:"
 
 #: inc/template-tags.php:258
 msgid "Please use a modern and secure web browser like"
-msgstr "Por favor utiliza un navegador web moderno y seguro como"
+msgstr "Vänligen använd en modern och säker webbläsare som"
 
 #: inc/template-tags.php:85
 #, php-format
 msgctxt "post author"
 msgid "by %s"
-msgstr "por %s"
+msgstr "av %s"
 
 #: comments.php:101
 msgid "Post Comment"
-msgstr "Publicar Comentario"
+msgstr "Publicera kommentar"
 
 #: author.php:68
 msgid "Read more"
-msgstr "Lea más"
+msgstr "Läs mer"
 
 #: category.php:61 author-sidebar-left.php:71 index.php:78 index.php:134
 #: archive.php:63 category-equal-height.php:63
@@ -325,7 +322,7 @@ msgstr "Lea más"
 #: category-equal-height-sidebar-right.php:63
 #: template-parts/content-search.php:42
 msgid "Read more »"
-msgstr "Lea más »"
+msgstr "Läs mer »"
 
 #. 1: link to WP admin new post page.
 #: template-parts/content-none.php:25
@@ -333,92 +330,90 @@ msgstr "Lea más »"
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
-"Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+"Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
 
 #: inc/comment-list.php:109
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
-"Guardar mi nombre, correo electrónico y sitio web en este navegador para la "
-"próxima vez que comente."
+"Spara mitt namn, e-postadress och webbplats i denna webbläsare till nästa "
+"gång jag kommenterar."
 
 #: searchform.php:3
 msgid "Search"
-msgstr "Buscar"
+msgstr "Sök"
 
 #. %s: search query.
 #: search.php:29
 #, php-format
 msgid "Search Results for: %s"
-msgstr "Resultados de Búsqueda para: %s"
+msgstr "Sökresultat för: %s"
 
 #: woocommerce/loop/orderby.php:27
 msgid "Shop order"
-msgstr "Pedido de compra"
+msgstr "Beställning"
 
 #: functions.php:142
 msgid "Sidebar"
-msgstr "Barra lateral"
+msgstr "Sidofält"
 
 #. Name of the template
 msgid "Sidebar left"
-msgstr "Barra lateral izquierda"
+msgstr "Vänster sidofält"
 
 #: template-parts/content-none.php:37
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
-msgstr ""
-"Lo sentimos, pero nada coincide con tus términos de búsqueda. Vuelve a "
-"intentarlo con algunas palabras clave diferentes."
+msgstr "Tyvärr matchade ingenting din sökning. Försök igen med andra sökord."
 
 #: comments.php:103
 msgid "Start typing..."
-msgstr "Empieza a escribir..."
+msgstr "Börja skriva…"
 
 #: functions.php:412
 msgid "Submit"
-msgstr "Enviar"
+msgstr "Skicka"
 
 #. 1: list of tags.
 #: inc/template-tags.php:191
 #, php-format
 msgid "Tagged %1$s"
-msgstr "Etiquetado %1$s"
+msgstr "Taggat %1$s"
 
 #: inc/template-tags.php:257
 msgid "This website will offer limited functionality in this browser."
-msgstr "Este sitio web ofrecerá una funcionalidad limitada en este navegador."
+msgstr "Denna webbplats erbjuder begränsad funktionalitet i denna webbläsare."
 
 #: inc/template-tags.php:258
 msgid "to display this site correctly."
-msgstr "para mostrar este sitio correctamente."
+msgstr "för att visa den här webbplatsen korrekt."
 
 #: woocommerce/cart/mini-cart.php:112
 #| msgid "To find out your shipping cost , Please proceed to checkout."
 msgid "To find out your shipping cost, please proceed to checkout."
-msgstr "Para conocer el coste del envío, por favor procede al pago."
+msgstr "Gå till kassan för att se fraktkostnad."
 
 #: functions.php:154
 msgid "Top Footer"
-msgstr "Pie de página Superior"
+msgstr "Sidfot Topp"
 
 #: functions.php:118
 msgid "Top Nav"
-msgstr "Navegación Superior"
+msgstr "Navigation Topp"
 
 #: functions.php:130
 msgid "Top Nav Search"
-msgstr "Búsqueda de Navegación Superior"
+msgstr "Navigation Topp Sök"
 
 #: comments.php:130
 msgid "Website"
-msgstr "Sitio web"
+msgstr "Webbplats"
 
 #: inc/comment-list.php:58
 msgid "Your comment is awaiting moderation."
-msgstr "Tu comentario está esperando ser moderado."
+msgstr "Din kommentar inväntar granskning."
 
 #: woocommerce/single-product-reviews.php:134
 msgid "Your review...*"
-msgstr "Su reseña...*"
+msgstr "Din recension…*"

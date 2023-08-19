@@ -109,8 +109,8 @@ msgstr ""
 #. Name of the theme
 #. Author of the theme
 #| msgid "bootScore 5"
-msgid "bootScore"
-msgstr "bootScore"
+msgid "Boostrap 5 Theme"
+msgstr "Boostrap 5 Theme"
 
 #: comments.php:103
 msgid "Cancel"

@@ -545,3 +545,18 @@ function bsfaCode($atts) {
 
 ;
 add_shortcode('bsfa', 'bsfaCode');
+
+
+function wpb_modify_jquery() {
+    //check if front-end is being viewed
+    if (!is_admin()) {
+        // Remove default WordPress jQuery
+        wp_deregister_script('jquery');
+        // Register new jQuery script via Google Library
+        wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js', false, '3.7.0');
+        // Enqueue the script
+        wp_enqueue_script('jquery');
+    }
+}
+// Execute the action when WordPress is initialized
+add_action('init', 'wpb_modify_jquery');
